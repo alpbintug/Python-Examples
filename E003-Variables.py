@@ -10,3 +10,6 @@ print(a) #Output: 1
 print(b) #Output: 2
 print(c) #Output: 3.4
 print(d) #Output: Five
+
+list = [1,2,3,4,5]
+print(list) #Output: [1, 2, 3, 4, 5]
