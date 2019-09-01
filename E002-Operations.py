@@ -10,8 +10,11 @@ b**=0.5 #Short writing for b = b^(1/2)
 print(b) #Output: 2.449489742783178
 b**=2 # b = b^2
 print(b)#Output: 5.999999999999999
-b=6
 
 #Logic operators
 print(a!=b) #Not equal, Output: True
 print(a==b) #Equal, Output: False
+
+a = b = 5
+print(a<b) #Output: False
+print(a>b) #Output: False
