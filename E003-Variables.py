@@ -13,3 +13,8 @@ print(d) #Output: Five
 
 list = [1,2,3,4,5]
 print(list) #Output: [1, 2, 3, 4, 5]
+print(list[1:4]) #Output: [2, 3, 4]
+
+tuple = (1,"2",'3',4.0,5)
+print(tuple) #Output: (1, '2', '3', 4.0, 5)
+print(tuple[1:4]) #Output: ('2', '3', 4.0)
