@@ -18,3 +18,13 @@ print(a==b) #Equal, Output: False
 a = b = 5
 print(a<b) #Output: False
 print(a>b) #Output: False
+
+a = "Hello"
+b = "hello"
+print(a==b) #Output: False
+
+b = "Hello"
+print(a == b) #Output: True
+
+a+=b
+print(a) #Output: HelloHello
